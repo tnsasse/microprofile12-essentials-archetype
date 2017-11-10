@@ -7,24 +7,24 @@
 		<version>9</version>
 	</parent>
 
-	<groupId>com.airhacks</groupId>
-	<artifactId>microprofile12-essentials-archetype</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.github.portlands</groupId>
+	<artifactId>microprofile12-ee7-cors-archetype</artifactId>
+	<version>1.0.1</version>
 
-	<description>MicroProfile 1.2 archetype. Clean, lean and minimalistic.</description>
-	
+	<description>MicroProfile 1.2 archetype with EE7 and CORS Filter </description>
+
 	<developers>
 		<developer>
 			<name>Tobias N. Sasse (@tnsasse)</name>
 		</developer>
 	</developers>
-	
-	<url>http://airhacks.com</url>
+
+	<url>http://github.com/portlands</url>
 
 	<licenses>
 		<license>
-			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>

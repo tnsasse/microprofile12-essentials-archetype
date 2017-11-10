@@ -1,6 +1,7 @@
-# Build
-mvn clean package && docker build -t ${groupId}/${artifactId} .
+# README
+This app was created using the portlands microprofile-ee7-cors maven archetype. You can run it straight away with docker, or deploy it locally to the app server of your taste.
 
-# RUN
+## Build & Run
 
-docker rm -f ${artifactId} || true && docker run -d -p 9080:9080 --name ${artifactId} ${groupId}/${artifactId} 
+  * First time only: `$ chmod u+x buildAndRun.sh`
+  * Run the project: `$ ./buildAndRun.sh `

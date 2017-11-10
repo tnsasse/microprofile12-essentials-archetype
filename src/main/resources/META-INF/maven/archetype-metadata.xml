@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  #%L
-  microprofile12-essentials-archetype
   %%
   Copyright (C) 2017 Tobias N. Sasse
   %%
@@ -44,21 +42,14 @@ limitations under the License.
             </includes>
         </fileSet>
 
-        <fileSet filtered="false" packaged="false" encoding="UTF-8">
-            <directory></directory>
-            <includes>
-                <include>.gitignore</include>
-            </includes>
-        </fileSet>
-
         <fileSet filtered="true" packaged="false" encoding="UTF-8">
             <directory></directory>
             <includes>
                 <include>README.md</include>                
                 <include>Dockerfile</include>
-                <include>buildAndRun.sh</include>                
+                <include>buildAndRun.sh</include>
+		<include>.gitingore</include>                
             </includes>
         </fileSet>
-        
     </fileSets>
 </archetype-descriptor>
